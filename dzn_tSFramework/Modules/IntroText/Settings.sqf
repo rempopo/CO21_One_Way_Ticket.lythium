@@ -6,11 +6,11 @@ tSF_Intro_LineText1	= "%1/%2/%3";
 tSF_Intro_LineStyle1	= "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 2nd line
-tSF_Intro_LineText2	= "Helmand Provinz, Afghanistan, Sudasien";
+tSF_Intro_LineText2	= "Провинция Гельманд, Афганистан, Южная Азия";
 tSF_Intro_LineStyle2	= "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 3rd line
-tSF_Intro_LineText3	= "Unternehmen 'Suchen und Vernichten'";
+tSF_Intro_LineText3	= "Операция 'Suchen und Vernichten'";
 tSF_Intro_LineStyle3	= "<t align = 'right' shadow = '1' size = '0.9' font='PuristaBold'><br />%1</t>";
 
 // Other settings
