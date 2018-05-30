@@ -13,6 +13,9 @@
 tSF_ArtillerySupport_AuthorizedUsers = [
 	"Admin"
 	,"Platoon Leader"
+	,"1'1 Gruppenführer"
+	,"1'2 Gruppenführer"
+	,"1'6 Zugführer"
 	,"Platoon Sergeant"
 	,"Командир взвода"
 	,"Зам. командира взвода"
