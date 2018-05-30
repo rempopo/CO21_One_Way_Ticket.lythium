@@ -14,6 +14,26 @@ respawnDelay = 9999999;
 
 class Params
 {   
+	class overview_line0
+	{
+		title = "Обзор:";
+		values[] = {0};
+		texts[] = {""};
+	};
+	class overview_line1
+	{
+		title = "Взвод Бундесвера ищет и уничтожает миномёты в н.п. Razbula и противника южнее Anyakar. Взвод усилен снайперской парой: Scharfschütze и второй номер (No. 2)";
+		values[] = {0};
+		texts[] = {""};
+	};
+	
+	class overview_line_break
+	{
+		title = "---- Настройки ------------------"; 
+		values[] = {0};
+		texts[] = {""};
+	};
+	
 	class par_daytime
 	{
 	    title = "Время суток";
