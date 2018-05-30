@@ -100,7 +100,7 @@ kit_bund_gr = [
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["30Rnd_556x45_Stanag_green",7],["1Rnd_HE_Grenade_shell",9]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["PRIMARY MAG",7],["1Rnd_HE_Grenade_shell",9]]],
 	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["DemoCharge_Remote_Mag",2]]]
 ];
 kit_bund_r = [
@@ -110,7 +110,7 @@ kit_bund_r = [
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["30Rnd_556x45_Stanag_green",8]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[["hlc_100Rnd_762x51_M_MG3",3]]]
 ];
 kit_bund_mm = [
