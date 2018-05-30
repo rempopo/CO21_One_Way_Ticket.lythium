@@ -55,7 +55,7 @@
 
 kit_bund_pl = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Tropentarn_2","CUP_V_I_RACS_Carrier_Vest","tf_rt1523g_big_bwmod_tropen","CUP_H_SLA_BeretRed",""],
-	["<PRIMARY WEAPON >>  ","hlc_rifle_G36C","30Rnd_556x45_Stanag_green",["","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_552",""]],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_G36A1","30Rnd_556x45_Stanag_green",["","","HLC_Optic_G36dualoptic35x",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
@@ -65,7 +65,7 @@ kit_bund_pl = [
 ];
 kit_bund_sl = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Tropentarn_2","CUP_V_I_RACS_Carrier_Vest_2","tf_rt1523g_big_bwmod_tropen","rhsusf_ach_bare_tan",""],
-	["<PRIMARY WEAPON >>  ","hlc_rifle_G36C","30Rnd_556x45_Stanag_green",["","","rhsusf_acc_SpecterDR",""]],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_G36A1","30Rnd_556x45_Stanag_green",["","","HLC_Optic_G36dualoptic35x",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
