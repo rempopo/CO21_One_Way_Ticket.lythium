@@ -21,7 +21,7 @@ dzn_dynai_allowVehicleHoldBehavior		= true;
 	If false -- complex skills are used. More info about complex skills https://community.bistudio.com/wiki/AI_Sub-skills
 */
 dzn_dynai_UseSimpleSkill			=	false;
-dzn_dynai_overallSkillLevel			=	0.95;
+dzn_dynai_overallSkillLevel			=	0.75;
 dzn_dynai_complexSkillLevel			=	[
 	["general", 0.95]
 	,["aimingAccuracy", 0.8],["aimingShake", 0.8],["aimingSpeed", 0.9],["reloadSpeed", 0.7]
