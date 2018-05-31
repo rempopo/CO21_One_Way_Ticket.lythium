@@ -27,11 +27,11 @@ tSF_MissionDefaults_EnableCutieCalc	= true;
  */
 tSF_MissionDefaults_EnableMarkerPhoneticAutocompletion	= true;
 tSF_MissionDefaults_PhoneticAlphabet = [
-	"Alpha"	,"Bravo"	,"Charlie"	,"Delta"	,"Echo"	,"Foxtrot"	
-	,"Golf"	,"Hotel"	,"India"	,"Juliett"	,"Kilo"	,"Lima"	
-	,"Mike"	,"November"	,"Oscar"	,"Papa"	,"Quebec"	,"Romeo"	
-	,"Sierra"	,"Tango"	,"Uniform"	,"Victor"	,"Whiskey"	,"X-ray"	
-	,"Yankee"	,"Zulu"
+	"Anton"	,"Berta"	,"Casar"	,"Dora"	,"Emil"	,"Friedrich"	
+	,"Gustav"	,"Heinrich"	,"Ida"	,"Julius"	,"Kaufmann"	,"Ludwig"	
+	,"Martha"	,"Nordpol"	,"Otto"	,"Paula"	,"Quelle"	,"Richard"	
+	,"Siegfried"	,"Theodor"	,"Ulrich"	,"Viktor"	,"Wilhelm"	,"Xanthippe"	
+	,"Ypsilon"	,"Zeppelin"
 	
 	,"Анна"	,"Борис"	,"Василий"	,"Григорий"	,"Дмитрий"	,"Елена"
 	,"Женя"	,"Зоя"	,"Иван"	,"Константин"	,"Леонид"	,"Михаил"
