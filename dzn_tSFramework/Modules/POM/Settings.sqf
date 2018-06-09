@@ -7,7 +7,8 @@
 tSF_POM_AuthorizedUsers		= [
 						"1'6 Platoon Leader"						
 						,"1'6 Командир взвода"
-						
+						,"1'6 Zugführer"
+						,"Stellv. Zugführer"
 						,"Platoon Sergeant"
 						,"Зам. командира взвода"						
 ];
