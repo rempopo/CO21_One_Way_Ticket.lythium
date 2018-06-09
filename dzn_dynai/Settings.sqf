@@ -21,9 +21,9 @@ dzn_dynai_allowVehicleHoldBehavior		= true;
 	If false -- complex skills are used. More info about complex skills https://community.bistudio.com/wiki/AI_Sub-skills
 */
 dzn_dynai_UseSimpleSkill			=	false;
-dzn_dynai_overallSkillLevel			=	0.95;
+dzn_dynai_overallSkillLevel			=	0.75;
 dzn_dynai_complexSkillLevel			=	[
-	["general", 0.95]
+	["general", 0.75]
 	,["aimingAccuracy", 0.8],["aimingShake", 0.8],["aimingSpeed", 0.9],["reloadSpeed", 0.7]
 	,["spotDistance", 1],["spotTime", 1],["commanding", 1]
 	,["endurance", 0.95],["courage", 0.7]
@@ -33,7 +33,7 @@ dzn_dynai_complexSkillLevel			=	[
 dzn_dynai_allowedBuildingClasses			= ["House"];
 dzn_dynai_restrictedBuildingClasses		= [
 	/* Altis */
-	"Land_Metal_Shed_F","Land_Slum_House01_F","Land_Slum_House03_F","Land_u_Addon_01_V1_F","Land_Chapel_Small_V1_F","Land_i_Garage_V1_F","Land_LightHouse_F"
+	"Land_Metal_Shed_F","Land_Slum_House01_F","Land_Slum_House03_F","Land_u_Addon_01_V1_F","Land_Chapel_Small_V1_F","Land_i_Garage_V1_F","Land_LightHouse_F","slum_house02_f"
 	/*  Takistan */
 	, "Land_Vez"
 ];

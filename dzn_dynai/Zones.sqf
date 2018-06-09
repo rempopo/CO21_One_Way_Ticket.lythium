@@ -2,7 +2,7 @@
 /* *********** This array defines detailed properties of zones ************************** */
 [
 	"patrol_hill_167" /* Zone Name */
-	,"EAST",true, /* Side, is Active */ [],[]
+	,"EAST",false, /* Side, is Active */ [],[]
 	/* Groups: */
 	,[
 		[
@@ -15,12 +15,12 @@
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
-	,["LIMITED","SAFE","YELLOW","WEDGE"]
+	,["FULL","SAFE","YELLOW","WEDGE"]
 ]
 ,
 [
 	"patrol_hill_136" /* Zone Name */
-	,"EAST",true, /* Side, is Active */ [],[]
+	,"EAST",false, /* Side, is Active */ [],[]
 	/* Groups: */
 	,[
 		[
@@ -33,7 +33,7 @@
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
-	,["LIMITED","SAFE","YELLOW","WEDGE"]
+	,["FULL","SAFE","YELLOW","WEDGE"]
 ]
 ,
 [
@@ -140,9 +140,6 @@
 			/* Units */
 			[
 				["O_Soldier_F", ["indoors"], "kit_ins_random"]
-				,["O_Soldier_F", ["indoors"], "kit_ins_random"]
-				,["O_Soldier_F", ["indoors"], "kit_ins_random"]
-				,["O_Soldier_F", ["indoors"], "kit_ins_random"]
 				,["O_Soldier_F", ["indoors"], "kit_ins_random"]
 				,["O_Soldier_F", ["indoors"], "kit_ins_random"]
 				,["O_Soldier_F", ["indoors"], "kit_ins_random"]

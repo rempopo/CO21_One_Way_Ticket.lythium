@@ -55,22 +55,22 @@
 
 kit_bund_pl = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Tropentarn_2","CUP_V_I_RACS_Carrier_Vest","tf_rt1523g_big_bwmod_tropen","CUP_H_SLA_BeretRed",""],
-	["<PRIMARY WEAPON >>  ","hlc_rifle_G36C","30Rnd_556x45_Stanag_green",["","rhsusf_acc_anpeq15side_bk","rhsusf_acc_eotech_552",""]],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_G36A1","30Rnd_556x45_Stanag_green",["","","HLC_Optic_G36dualoptic35x",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["PRIMARY MAG",8]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_bund_sl = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Tropentarn_2","CUP_V_I_RACS_Carrier_Vest_2","tf_rt1523g_big_bwmod_tropen","rhsusf_ach_bare_tan",""],
-	["<PRIMARY WEAPON >>  ","hlc_rifle_G36C","30Rnd_556x45_Stanag_green",["","","rhsusf_acc_SpecterDR",""]],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_G36A1","30Rnd_556x45_Stanag_green",["","","HLC_Optic_G36dualoptic35x",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["PRIMARY MAG",8]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_bund_ftl = [
@@ -90,7 +90,7 @@ kit_bund_ar = [
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_tan","CUP_17Rnd_9x19_glock17",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["PRIMARY MAG",2],["HANDGUN MAG",1]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["PRIMARY MAG",2],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["HANDGUN MAG",1]]],
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",1]]]
 ];
 kit_bund_gr = [
@@ -100,7 +100,7 @@ kit_bund_gr = [
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["30Rnd_556x45_Stanag_green",7],["1Rnd_HE_Grenade_shell",9]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["PRIMARY MAG",7],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["1Rnd_HE_Grenade_shell",9]]],
 	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["DemoCharge_Remote_Mag",2]]]
 ];
 kit_bund_r = [
@@ -110,24 +110,24 @@ kit_bund_r = [
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["30Rnd_556x45_Stanag_green",8]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["PRIMARY MAG",8]]],
 	["<BACKPACK ITEMS >> ",[["hlc_100Rnd_762x51_M_MG3",3]]]
 ];
 kit_bund_mm = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Tropentarn_2","CUP_V_B_MTV_Marksman","CUP_B_GER_Pack_Tropentarn","CUP_H_Ger_Boonie_desert",""],
 	["<PRIMARY WEAPON >>  ","CUP_srifle_G22_des","CUP_5Rnd_762x67_G22",["","","CUP_optic_LeupoldMk4_10x40_LRT_Desert",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_tan","CUP_17Rnd_9x19_glock17",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["ACE_RangeCard",1],["ACE_Kestrel4500",1],["ACE_ATragMX",1],["SmokeShell",1],["HandGrenade",3],["PRIMARY MAG",7]]],
+	["<VEST ITEMS >> ",[["ACE_RangeCard",1],["ACE_Kestrel4500",1],["ACE_ATragMX",1],["SmokeShell",1],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["HandGrenade",3],["PRIMARY MAG",7],["HANDGUN MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["rhsusf_weap_MP7A2_desert",1],["rhsusf_mag_40Rnd_46x30_FMJ",2]]]
 ];
 kit_bund_pilot = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Tropentarn_2","CUP_V_B_PilotVest","","CUP_H_BAF_Helmet_Pilot",""],
 	["<PRIMARY WEAPON >>  ","CUP_smg_MP5A5","CUP_30Rnd_9x19_MP5",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_tan","CUP_17Rnd_9x19_glock17",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["PRIMARY MAG",3]]],
@@ -137,10 +137,10 @@ kit_bund_amm = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Tropentarn_2","CUP_V_B_MTV_Marksman","CUP_B_GER_Pack_Tropentarn","CUP_H_Ger_Boonie_desert",""],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_G36A1","30Rnd_556x45_Stanag",["","","HLC_Optic_G36dualoptic35x",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
-	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_tan","CUP_17Rnd_9x19_glock17",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["30Rnd_556x45_Stanag_green",8]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["30Rnd_556x45_Stanag_green",8],["HANDGUN MAG",2]]],
 	["<BACKPACK ITEMS >> ",[["ACE_ATragMX",1],["ACE_Kestrel4500",1],["ACE_SpottingScope",1],["ACE_Tripod",1],["ACE_EntrenchingTool",1],["ACE_RangeCard",1]]]
 ];
 cargo_kit_bund = [

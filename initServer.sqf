@@ -39,3 +39,17 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 	PlayerConnectedData pushBack _this;
 	publicVariable "PlayerConnectedData";
 }];
+
+
+[] spawn {
+	waitUntil {!isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } };
+	waitUntil {time > 0};
+	waitUntil {!isNil "players_detected"};
+	patrol_hill_167 call dzn_fnc_dynai_activateZone;
+	patrol_hill_136 call dzn_fnc_dynai_activateZone;
+	[patrol_hill_167, [getPosATL bait_1,getPosATL bait_2,getPosATL bait_3,getPosATL bait_4]] call dzn_fnc_dynai_setZoneKeypoints;
+	[patrol_hill_136, [getPosATL bait_1,getPosATL bait_2,getPosATL bait_3,getPosATL bait_4]] call dzn_fnc_dynai_setZoneKeypoints;
+};
+
+waitUntil {!alive TGT1 && !alive TGT2};
+deleteVehicle TGT1 && deleteVehicle TGT2;
