@@ -12,4 +12,4 @@ German platoon searchs and destroyes insurgent's mortar position
 | Reviewer | Result |
 | ------------ | ------------- |
 | - | - |
-| - | - |
+| Vocasyan | APPROVED |
