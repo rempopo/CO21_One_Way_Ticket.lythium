@@ -26,10 +26,10 @@ END
 
 TOPIC("Б. Дружественные силы:")
 "ISAF - Bundeswehr - Fallschirmjägerbataillon 263
-<br />1'1 - 9 чел.
-<br />1'2 - 9 чел.
-<br />1'6 - 2 чел.
-<br />Scharfschutze Gruppe - 2 чел. (снайперы)"
+<br />   1'1 - 9 чел.
+<br />   1'2 - 9 чел.
+<br />   1'6 - 2 чел.
+<br />   Scharfschutze Gruppe - 2 чел. (снайперы)"
 END
 
 TOPIC("II. Задание:")
