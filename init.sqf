@@ -14,6 +14,3 @@
         [] execVM "dzn_brv\dzn_brv_init.sqf";
 };
 // *****
-
-waitUntil {!alive TGT1 && !alive TGT2};
-deleteVehicle TGT1 && deleteVehicle TGT2;
