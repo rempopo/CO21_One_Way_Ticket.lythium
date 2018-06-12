@@ -51,5 +51,7 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 	[patrol_hill_136, [getPosATL bait_1,getPosATL bait_2,getPosATL bait_3,getPosATL bait_4]] call dzn_fnc_dynai_setZoneKeypoints;
 };
 
-waitUntil {!alive TGT1 && !alive TGT2};
-deleteVehicle TGT1 && deleteVehicle TGT2;
+[] spawn {
+	waitUntil {!alive TGT1 && !alive TGT2};
+	deleteVehicle TGT1 && deleteVehicle TGT2;
+}:
