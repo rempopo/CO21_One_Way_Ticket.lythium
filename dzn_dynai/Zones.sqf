@@ -15,7 +15,7 @@
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
-	,["FULL","SAFE","YELLOW","WEDGE"]
+	,["FULL","AWARE","YELLOW","WEDGE"]
 ]
 ,
 [
@@ -33,7 +33,7 @@
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
-	,["FULL","SAFE","YELLOW","WEDGE"]
+	,["FULL","AWARE","YELLOW","WEDGE"]
 ]
 ,
 [
