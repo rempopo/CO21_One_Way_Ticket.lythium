@@ -42,13 +42,18 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 
 
 [] spawn {
+	// Reinforcements
 	waitUntil {!isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } };
 	waitUntil {time > 0};
 	waitUntil {!isNil "players_detected"};
-	patrol_hill_167 call dzn_fnc_dynai_activateZone;
-	patrol_hill_136 call dzn_fnc_dynai_activateZone;
+	
+	// Add keypoints first
 	[patrol_hill_167, [getPosATL bait_1,getPosATL bait_2,getPosATL bait_3,getPosATL bait_4]] call dzn_fnc_dynai_setZoneKeypoints;
 	[patrol_hill_136, [getPosATL bait_1,getPosATL bait_2,getPosATL bait_3,getPosATL bait_4]] call dzn_fnc_dynai_setZoneKeypoints;
+	
+	// Then activate zones
+	patrol_hill_167 call dzn_fnc_dynai_activateZone;
+	patrol_hill_136 call dzn_fnc_dynai_activateZone;
 };
 
 [] spawn {
