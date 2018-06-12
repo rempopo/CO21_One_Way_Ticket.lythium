@@ -52,6 +52,11 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 };
 
 [] spawn {
-	waitUntil {!alive TGT1 && !alive TGT2};
-	deleteVehicle TGT1 && deleteVehicle TGT2;
-}:
+	waitUntil { !alive TGT1 };
+	deleteVehicle TGT1;
+};
+
+[] spawn {
+	waitUntil { !alive TGT2 };
+	deleteVehicle TGT2;
+};
