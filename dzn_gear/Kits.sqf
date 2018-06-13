@@ -80,7 +80,7 @@ kit_bund_ftl = [
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
-	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["PRIMARY MAG",9]]],
+	["<VEST ITEMS >> ",[["SmokeShell",1],["HandGrenade",3],["SmokeShellBlue",1],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["PRIMARY MAG",9]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_bund_ar = [
