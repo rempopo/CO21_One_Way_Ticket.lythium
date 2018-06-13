@@ -121,7 +121,7 @@ kit_bund_mm = [
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
 	["<VEST ITEMS >> ",[["ACE_RangeCard",1],["ACE_Kestrel4500",1],["ACE_ATragMX",1],["SmokeShell",1],["ACE_Chemlight_HiRed",2],["Chemlight_green",2],["HandGrenade",3],["PRIMARY MAG",7],["HANDGUN MAG",2]]],
-	["<BACKPACK ITEMS >> ",[["rhsusf_weap_MP7A2_desert",1],["rhsusf_mag_40Rnd_46x30_FMJ",2]]]
+	["<BACKPACK ITEMS >> ",[["rhsusf_weap_MP7A2_desert",1],["rhsusf_mag_40Rnd_46x30_FMJ",5]]]
 ];
 kit_bund_pilot = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Tropentarn_2","CUP_V_B_PilotVest","","CUP_H_BAF_Helmet_Pilot",""],
